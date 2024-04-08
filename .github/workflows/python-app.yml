@@ -45,6 +45,6 @@ jobs:
         pytest
     - name: Remove Tests
       run: |
-        rm -f tests
+        rmdir -f tests
 
 
