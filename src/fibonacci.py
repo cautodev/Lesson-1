@@ -5,7 +5,7 @@ def fibonacci(n):
     if n <= 0:
         return False, []
 
-    fib_sequence = [0, 1]
+    fib_sequence = [1, 1]
     for _ in range(2, n):
         fib_sequence.append(fib_sequence[-1] + fib_sequence[-2])
     return True, fib_sequence
